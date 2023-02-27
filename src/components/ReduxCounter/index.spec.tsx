@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { Provider as ReactReduxProvider } from 'react-redux';
 
-import { createStore } from '../../redux-store';
+import { createStore } from '@/redux-store';
 
 import { ReduxCounter } from './';
 

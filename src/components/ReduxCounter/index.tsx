@@ -3,7 +3,7 @@ import {
   increment,
   useAppDispatch,
   useAppSelector,
-} from 'redux-store';
+} from '@/redux-store';
 
 export const ReduxCounter = () => {
   const count = useAppSelector((state) => state.counter.value);

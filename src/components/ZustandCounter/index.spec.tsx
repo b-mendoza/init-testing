@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { useStore } from 'zustand-store';
+import { useStore } from '@/zustand-store';
 
 import { ZustandCounter } from './';
 
